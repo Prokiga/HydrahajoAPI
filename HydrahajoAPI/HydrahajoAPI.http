@@ -1,0 +1,6 @@
+@HydrahajoAPI_HostAddress = http://localhost:5237
+
+GET {{HydrahajoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
