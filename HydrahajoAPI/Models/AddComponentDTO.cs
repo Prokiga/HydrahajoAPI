@@ -2,13 +2,11 @@
 
 namespace HydrahajoAPI.Models
 {
-    public class Component
+    public class AddComponentDTO
     {
-        [Key]
-        public int Component_Id { get; set; }
         [MaxLength(50)]
         public string Component_Name { get; set; }
-        [MaxLength(50)]        
+        [MaxLength(50)]
         public string Component_type { get; set; }
     }
 }

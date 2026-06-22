@@ -15,6 +15,8 @@ namespace HydrahajoAPI.Models
 
         }
 
+        public DbSet<Component> components { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
